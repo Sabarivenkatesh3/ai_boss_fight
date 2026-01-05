@@ -1,3 +1,4 @@
+
 # 🧠 AI Boss Fight – Multi-Agent Debate System
 
 AI Boss Fight is a multi-agent AI system built using **CrewAI** that simulates structured debates between autonomous agents and produces a fair, reasoned verdict.
@@ -24,7 +25,6 @@ Optimist Agent (Pros)
 Skeptic Agent (Cons)
 ↓
 Judge Agent (Evaluation + Verdict)
-
 
 ---
 
@@ -72,52 +72,40 @@ ai_boss_fight/
 ## ▶️ How to Run
 
 1. Create a virtual environment and install dependencies
+
 2. Add your Groq API key in `.env`:
 GROQ_API_KEY=your_api_key_here
+
 3. Run the system:
-```bash
-python run.py
+`python run.py`
 
 ---
 
 ## 📤 Sample Output
 
-Optimist Agent:
-• AI increases development speed and productivity.
-• Developers can focus on higher-level design and strategy.
+- **Optimist Agent:**
+    - AI increases development speed and productivity.
+    - Developers can focus on higher-level design and strategy.
 
-Skeptic Agent:
-• AI-generated code may introduce security vulnerabilities.
-• Lack of transparency can reduce accountability.
+- **Skeptic Agent:**
+    - AI-generated code may introduce security vulnerabilities.
+    - Lack of transparency can reduce accountability.
 
-Judge Verdict:
-Winner: Skeptic Agent
-Reasoning: Risks outweigh benefits in high-stakes environments.
-Score: 8 / 10
-
+-  **Judge Verdict:**
+    - Winner: Skeptic Agent
+    - Reasoning: Risks outweigh benefits in high-stakes environments.
+    - Score: 8 / 10
 
 ---
 
-## 🌱 Future Enhancements
-
-Custom topic input via CLI arguments
-
-Multi-round debates with rebuttals
-
-JSON-structured outputs
-
-Debate history logging
-
-Token usage tracking
-
 ## 💡 Key Learnings
 
-Agent role separation
+- Agent role separation
 
-Prompt engineering & output control
+- Prompt engineering & output control
 
-Sequential agent workflows
+- Sequential agent workflows
 
-Real-world LLM integration
+- Real-world LLM integration
 
-AI system debugging and reliability
+- AI system debugging and reliability
