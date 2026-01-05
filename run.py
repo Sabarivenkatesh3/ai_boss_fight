@@ -10,6 +10,7 @@ if __name__ == "__main__":
     topic = " ".join(sys.argv[1:])
 
 
+
     result = debate_crew.kickoff(inputs={"topic": topic})
 
     print("\n=== AI Boss Fight Result ===\n")
