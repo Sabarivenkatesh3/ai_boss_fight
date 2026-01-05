@@ -4,9 +4,11 @@ from crewai import LLM
 
 
 llm = LLM(
-    model="groq/llama3-8b-8192",
+    model="groq/llama-3.3-70b-versatile",
     api_key=os.getenv("GROQ_API_KEY")
 )
+
+
 
 optimist_agent = Agent(
     role="Optimist Agent",
